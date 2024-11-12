@@ -153,3 +153,6 @@ DJOSER = {
         'current_user': 'users.serializers.UserSerializer',
     },
 }
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
