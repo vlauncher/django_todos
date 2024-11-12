@@ -27,6 +27,6 @@ class Profile(models.Model):
     birth_date = models.DateTimeField(null=True, blank=True)
     
     def __str__(self):
-        return f' {self.user.email} --> {self.user.first_name} {self.user.last_name}'
+        return f' {self.user.email}'
     
     
